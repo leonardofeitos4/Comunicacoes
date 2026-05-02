@@ -10,11 +10,22 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 
 <body>
+
+<!-- CARROSSEL DE FUNDO -->
+<div class="bg-slider" aria-hidden="true">
+  <div class="bg-slide bg-slide--1"></div>
+  <div class="bg-slide bg-slide--2"></div>
+  <div class="bg-slide bg-slide--3"></div>
+  <div class="bg-slide bg-slide--4"></div>
+</div>
+
 
 <header class="cover"></header>
 
@@ -22,41 +33,180 @@
 
 <div class="container-projetos">
 
+
+<!-- CABEÇALHO -->
+
 <section class="profile">
 
-<h1>Conheça nosso trabalho</h1>
+<h1>Nossos Projetos</h1>
 
-<p>
-Alguns projetos desenvolvidos pela Urbanas Comunicação.
-</p>
+<p>Comunicação que transforma marcas em resultados.</p>
 
 </section>
 
 
-<section class="projetos">
+<!-- FILTROS -->
 
-<img src="assets/8.jpg">
-<img src="assets/9.jpg">
-<img src="assets/10.jpg">
-<img src="assets/11.jpg">
-<img src="assets/12.jpg">
-<img src="assets/13.jpg">
-<img src="assets/14.png">
+<div class="proj-filtros">
+  <button class="proj-btn ativo" data-secao="trabalhos">Trabalhos Feitos</button>
+  <button class="proj-btn" data-secao="clientes">Clientes</button>
+</div>
+
+
+<!-- TRABALHOS FEITOS -->
+
+<section class="proj-grid" id="trabalhos">
+
+  <div class="proj-item">
+    <img src="assets/1.png" alt="Trabalho 1">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/2.png" alt="Trabalho 2">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/3.png" alt="Trabalho 3">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/4.png" alt="Trabalho 4">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/5.png" alt="Trabalho 5">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/6.png" alt="Trabalho 6">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/7.png" alt="Trabalho 7">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/15.png" alt="Trabalho 8">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/16.png" alt="Trabalho 9">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/17.png" alt="Trabalho 10">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
 
 </section>
+
+
+<!-- CLIENTES -->
+
+<section class="proj-grid escondido" id="clientes">
+
+  <div class="proj-item">
+    <img src="assets/8.jpg" alt="Cliente 1">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/9.jpg" alt="Cliente 2">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/10.jpg" alt="Cliente 3">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/11.jpg" alt="Cliente 4">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/12.jpg" alt="Cliente 5">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/13.jpg" alt="Cliente 6">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+  <div class="proj-item">
+    <img src="assets/14.png" alt="Cliente 7">
+    <div class="proj-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+  </div>
+
+</section>
+
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="" alt="">
+  <button class="lightbox-fechar" id="lightbox-fechar">✕</button>
+</div>
 
 
 <div class="voltar-container">
-
-<a href="index.html" class="botao-voltar">
-← Voltar
-</a>
-
+  <a href="index.html" class="botao-voltar">← Voltar</a>
 </div>
+
 
 </div>
 
 </main>
+
+
+<script>
+
+// LIGHTBOX
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('.proj-item').forEach(item => {
+  item.addEventListener('click', () => {
+    lightboxImg.src = item.querySelector('img').src;
+    lightbox.classList.add('ativo');
+  });
+});
+
+document.getElementById('lightbox-fechar').addEventListener('click', fechar);
+lightbox.addEventListener('click', e => { if(e.target === lightbox) fechar(); });
+document.addEventListener('keydown', e => { if(e.key === 'Escape') fechar(); });
+
+function fechar() {
+  lightbox.classList.remove('ativo');
+}
+
+
+// FILTROS
+document.querySelectorAll('.proj-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.proj-btn').forEach(b => b.classList.remove('ativo'));
+    btn.classList.add('ativo');
+
+    const secao = btn.dataset.secao;
+    document.querySelectorAll('.proj-grid').forEach(g => {
+      g.id === secao ? g.classList.remove('escondido') : g.classList.add('escondido');
+    });
+  });
+});
+
+</script>
+
 
 </body>
 </html>
