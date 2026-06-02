@@ -31,69 +31,14 @@ inset:0;
 background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
-opacity:0;
+opacity:1;
 }
 
+/* FUNDO ESTÁTICO */
 .bg-slide--1{
 background-image:
   linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-  url("assets/fundo.jpg");
-animation:slide1 28s infinite;
-}
-
-.bg-slide--2{
-background-image:
-  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-  url("assets/fundo2.jpg");
-animation:slide2 28s infinite;
-}
-
-.bg-slide--3{
-background-image:
-  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-  url("assets/fundo3.jpeg");
-animation:slide3 28s infinite;
-}
-
-.bg-slide--4{
-background-image:
-  linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-  url("assets/fotosobre.jpg");
-animation:slide4 28s infinite;
-}
-
-@keyframes slide1{
-0%   { opacity:1 }
-21%  { opacity:1 }
-25%  { opacity:0 }
-96%  { opacity:0 }
-100% { opacity:1 }
-}
-
-@keyframes slide2{
-0%   { opacity:0 }
-21%  { opacity:0 }
-25%  { opacity:1 }
-46%  { opacity:1 }
-50%  { opacity:0 }
-100% { opacity:0 }
-}
-
-@keyframes slide3{
-0%   { opacity:0 }
-46%  { opacity:0 }
-50%  { opacity:1 }
-71%  { opacity:1 }
-75%  { opacity:0 }
-100% { opacity:0 }
-}
-
-@keyframes slide4{
-0%   { opacity:0 }
-71%  { opacity:0 }
-75%  { opacity:1 }
-96%  { opacity:1 }
-100% { opacity:0 }
+  url("assets/fundoasduas.jpg");
 }
 
 
@@ -344,15 +289,15 @@ background-size:115%;
 }
 
 .card-sobre{
-background-image:url("assets/sobre.jpg");
-background-position: center 30%;
-background-size: 110%; /* diminui o zoom */
+background-image:url("assets/sobreasduas.jpg");
+background-position: center 22%;
+background-size: cover;
 }
 
 .card-whatsapp{
-  background-image: url("assets/zap.jpg");
-  background-position: center 15%;
-  background-size: 100%; /* diminui o zoom */
+  background-image: url("assets/asduas.jpg");
+  background-position: center 28%;
+  background-size: cover;
 }
 
 
@@ -599,9 +544,9 @@ overflow:hidden;
 
 position:relative;
 
-background-image:url("assets/fotosobre.jpg");
+background-image:url("assets/quemsoudentro.jpg");
 background-size:cover;
-background-position:center 20%;
+background-position:center 38%;
 
 box-shadow:0 15px 40px rgba(0,0,0,.5);
 
