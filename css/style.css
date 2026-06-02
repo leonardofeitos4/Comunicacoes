@@ -38,7 +38,7 @@ opacity:1;
 .bg-slide--1{
 background-image:
   linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-  url("assets/fundoasduas.jpg");
+  url("../assets/fundoasduas.jpg");
 }
 
 
@@ -271,31 +271,31 @@ font-weight:600;
 /* IMAGENS DOS CARDS */
 
 .card-instagram{
-background-image:url("assets/instagram.jpg");
+background-image:url("../assets/instagram.jpg");
 background-position:center;
 background-size:105%;
 }
 
 .card-portfolio{
-background-image:url("assets/portfolio.jpg");
+background-image:url("../assets/portfolio.jpg");
 background-position:center 38%;
 background-size:115%;
 }
 
 .card-projetos{
-background-image:url("assets/topo-fundo.jpg");
+background-image:url("../assets/topo-fundo.jpg");
 background-position:center 38%;
 background-size:115%;
 }
 
 .card-sobre{
-background-image:url("assets/sobreasduas.jpg");
+background-image:url("../assets/sobreasduas.jpg");
 background-position: center 22%;
 background-size: cover;
 }
 
 .card-whatsapp{
-  background-image: url("assets/asduas.jpg");
+  background-image: url("../assets/asduas.jpg");
   background-position: center 28%;
   background-size: cover;
 }
@@ -544,7 +544,7 @@ overflow:hidden;
 
 position:relative;
 
-background-image:url("assets/quemsoudentro.jpg");
+background-image:url("../assets/quemsoudentro.jpg");
 background-size:cover;
 background-position:center 38%;
 
