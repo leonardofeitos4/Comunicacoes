@@ -41,17 +41,17 @@
 .fab:active{transform:scale(.9);}
 
 .fab-ai{
-  background:radial-gradient(circle at 50% 38%, #1e5293, #0b2545); /* azul Evolvify (escuro p/ contraste) */
+  background:radial-gradient(circle at 50% 38%, #1e5293, #0b2545); /* azul Urbanas (escuro p/ contraste) */
   padding:0;
   overflow:hidden;
 }
-.fab-ai img{
-  width:54px;height:54px;
-  object-fit:contain;
-  display:block;
+/* Monograma "U" da Urba (no lugar do mascote) */
+.fab-ai-ini{
   margin:auto;
-  top: 15px;
-  animation:evo-bob 2.8s ease-in-out 1s infinite;
+  font-size:28px;
+  font-weight:800;
+  line-height:1;
+  color:var(--evo-accent);
 }
 
 .fab-wa{background:#25d366;}
@@ -259,7 +259,7 @@
 /* Labels */
 .mlbl{font-size:10px;color:var(--evo-dim);margin-bottom:2px;display:flex;align-items:center;gap:5px;}
 .mlbl.u{justify-content:flex-end;}
-.mlbl-ava{width:20px;height:20px;object-fit:contain;display:inline-block;vertical-align:middle;}
+.mlbl-ava{width:18px;height:18px;border-radius:50%;background:#0b2545;color:var(--evo-accent);font-size:10px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;}
 
 /* Indicador de digitação */
 .typing-dot{
@@ -271,7 +271,6 @@
   align-self:flex-start;
   animation:evo-fadeU .28s ease both;
 }
-.typing-dot img{width:32px;height:32px;object-fit:contain;animation:evo-bob 1s ease-in-out infinite;}
 .typing-dot span{width:6px;height:6px;background:var(--evo-accent);border-radius:50%;animation:evo-td 1.2s infinite;}
 .typing-dot span:nth-child(2){animation-delay:.2s;}
 .typing-dot span:nth-child(3){animation-delay:.4s;}

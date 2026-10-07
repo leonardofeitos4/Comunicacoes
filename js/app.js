@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════
    APP — Urbanas Comunicação
-   Abertura/fechamento do chat da Evo
+   Abertura/fechamento do chat da Urba
 ═══════════════════════════════════ */
 
 function openChat() {

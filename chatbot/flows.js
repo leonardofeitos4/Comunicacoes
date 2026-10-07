@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════
-   FLOWS — Evo · Urbanas Comunicação
+   FLOWS — Urba · Urbanas Comunicação
 
    Conteúdo baseado no portfólio da Urbanas:
    · Kamila Urbano — jornalista, 15+ anos, assessoria de

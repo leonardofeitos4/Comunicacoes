@@ -6,13 +6,11 @@
 ═══════════════════════════════════ */
 const CONFIG = {
   WA: '5551995312100',
-  botName: 'Evo',
+  botName: 'Urba',
   brand: 'Urbanas Comunicação',
-  welcome: 'Olá! Me chamo <strong>Evo</strong>, a recepcionista digital da <strong>Urbanas Comunicação</strong>. 😊<br><br>Pra te ajudar melhor — qual é o seu objetivo principal?',
+  welcome: 'Olá! Me chamo <strong>Urba</strong>, a recepcionista digital da <strong>Urbanas Comunicação</strong>. 😊<br><br>Pra te ajudar melhor — qual é o seu objetivo principal?',
   typingDelayMin: 2200,
   typingDelayRandom: 400,
-  mascotThinking: 'assets/mascotes/mascotepensando.svg',
-  mascotPointing: 'assets/mascotes/mascoteapontando.svg',
 };
 
 function waLink(msg) {

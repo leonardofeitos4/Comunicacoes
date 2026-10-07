@@ -33,7 +33,7 @@ function disableChips() {
   });
 }
 
-/* Navega para um flow, exibindo a mensagem do usuário e a resposta da Evo */
+/* Navega para um flow, exibindo a mensagem do usuário e a resposta da Urba */
 function runFlow(id, label) {
   const f = flows[id];
   if (!f) return;
@@ -48,13 +48,13 @@ function startChat() {
   setTimeout(() => botMsg(CONFIG.welcome, flows.inicio.chips), 450);
 }
 
-/* Renderiza mensagem da Evo com indicador de digitação */
+/* Renderiza mensagem da Urba com indicador de digitação */
 function botMsg(html, chips) {
   const a = document.getElementById('chat-area');
 
   const td = document.createElement('div');
   td.className = 'typing-dot';
-  td.innerHTML = `<img src="${CONFIG.mascotThinking}" alt=""><span></span><span></span><span></span>`;
+  td.innerHTML = `<span></span><span></span><span></span>`;
   a.appendChild(td);
   a.scrollTop = a.scrollHeight;
 
@@ -65,7 +65,7 @@ function botMsg(html, chips) {
 
     const lbl = document.createElement('div');
     lbl.className = 'mlbl';
-    lbl.innerHTML = `<img class="mlbl-ava" src="${CONFIG.mascotPointing}" alt="">${CONFIG.botName} · ${CONFIG.brand}`;
+    lbl.innerHTML = `<span class="mlbl-ava">U</span>${CONFIG.botName} · ${CONFIG.brand}`;
     a.appendChild(lbl);
 
     const msg = document.createElement('div');
