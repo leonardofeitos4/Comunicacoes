@@ -7,7 +7,7 @@
 const CONFIG = {
   WA: '5551995312100',
   botName: 'Evo',
-  brand: 'Evolvify',
+  brand: 'Urbanas Comunicação',
   welcome: 'Olá! Me chamo <strong>Evo</strong>, a recepcionista digital da <strong>Urbanas Comunicação</strong>. 😊<br><br>Pra te ajudar melhor — qual é o seu objetivo principal?',
   typingDelayMin: 2200,
   typingDelayRandom: 400,
