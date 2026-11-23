@@ -38,7 +38,7 @@ opacity:1;
 .bg-slide--1{
 background-image:
   linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-  url("../assets/fundoasduas.jpg");
+  url("../assets/capa.jpg");
 }
 
 
@@ -253,18 +253,28 @@ font-size:18px;
 
 margin-top:10px;
 
-background:#ffd400;
-color:#000;
+background:transparent;
+color:#ffd400;
+border:1.5px solid #ffd400;
+text-shadow:0 1px 6px rgba(0,0,0,.6);
 
 width:max-content;
 
-padding:8px 18px;
+padding:7px 17px;
 
 border-radius:22px;
 
 font-size:13px;
 font-weight:600;
 
+transition:.25s;
+
+}
+
+.card:hover span{
+background:#ffd400;
+color:#000;
+text-shadow:none;
 }
 
 
@@ -289,8 +299,8 @@ background-size:115%;
 }
 
 .card-sobre{
-background-image:url("../assets/sobreasduas.jpg");
-background-position: center 22%;
+background-image:url("../assets/sobre-empresa.jpg");
+background-position: center 25%;
 background-size: cover;
 }
 
@@ -544,9 +554,9 @@ overflow:hidden;
 
 position:relative;
 
-background-image:url("../assets/quemsoudentro.jpg");
+background-image:url("../assets/sobre-empresa.jpg");
 background-size:cover;
-background-position:center 38%;
+background-position:center 20%;
 
 box-shadow:0 15px 40px rgba(0,0,0,.5);
 
